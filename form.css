@@ -1,0 +1,49 @@
+
+.street, .city, .firstname, .lastname {
+ 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 72rem;
+    
+}
+
+input{
+    margin-top: 5px;
+    
+}
+.textarea{
+    padding-top: 0rem !important;
+}
+textarea{
+    margin-left: 17rem;
+    margin-top: 2rem;
+}
+
+.image{
+    margin-left: 18.5rem;
+}
+
+.age{
+    margin-left: 16.8rem;
+    margin-top: 5px;
+
+}
+
+.hobbies select{
+        margin-left: 18rem;
+ }
+
+ .cars{
+     margin-left: 15rem;
+     margin-top: 5px;
+     
+}
+
+.transport{
+     margin-left: 10rem;
+     margin-top: 5px;
+
+ }

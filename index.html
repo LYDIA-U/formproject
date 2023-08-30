@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <meta name="author" content="LYDIA">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <Legend>Your address</Legend>
+            <div class="firstname">
+                <label for="firstname">First name</label> 
+                <input type="text" id="firstname">
+            </div>
+            <div class="lastname">
+                <label for="lastname">Last name</label>
+                <input type="text" id="lastname">
+            </div>
+            <div class="street">
+                <label for="Street">Street</label>
+                <input  type="text" id="street">
+            </div>
+            <div class="city">
+                <label for="city">City</label>
+                <input type="text" id="city">
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Additional details</legend>
+                <div class="textarea">
+                    <label for="biography">Biography</label>
+                    <textarea name="" id="biography"></textarea>
+                </div>
+                <br>
+                <label for="image">Image</label>
+                <input type="file" id="image" class="image">
+                <br>
+                <label for="age" >Age group</label>
+                <select name="age" id="age" class="age" multiple size="1">
+                    <option value="0">0 to 9 Years</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+        </fieldset>
+                
+        <br>
+        <fieldset>
+            <legend>Interest</legend>
+            <div class="hobbies">
+                <label for="hobbies">Hobies</label>
+                <select name="hobbies" id="hobbies" multiple size="4">
+                    <option value="Soccer">Playing soccer</option>
+                    <option value="dancing">Dancing</option>
+                    <option value="gardening">Gardening</option>
+                    <option value="movies">Watching movies</option>
+                </select>
+            </div>
+            <label for="favourite">Favourite car?</label>
+            <select name="favourite" id="favourite" multiple size="1" class="cars">
+                <option value="volvo">Volvo</option>
+                <option value="lexus">Lexus</option>
+                <option value="toyota">Toyota</option>
+
+            </select>
+            <br>
+            <label for="Transport">Favourite public transport?</label>
+            <select name="Transport" id="Transport" multiple size="4" class="transport">
+                <optgroup label="Ground">
+                <option value="Train">Train</option>
+                <option value="Bus">Bus</option>
+            </optgroup>
+            <optgroup label="Water">
+                <option value="boat">boat</option>
+                <option value="ship">Ship</option>
+            </optgroup>
+                
+            </select>
+
+        </fieldset>
+
+
+       
+        
+        
+    
+
+    </form>
+    
+</body>
+</html>
